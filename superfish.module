@@ -1532,7 +1532,6 @@ function superfish_block_view($delta = 0) {
  * Implements hook_form_FORM_ID_alter().
  */
 function superfish_form_block_admin_configure_alter(&$form, $form_state) {
-  sdpm('test');
   $form['#validate'][] = 'superfish_block_validate';
 }
 
